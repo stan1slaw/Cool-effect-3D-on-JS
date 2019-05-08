@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    height: 100vh;
+    background-color: #fff;
+    justify-content: space-around;
+    align-items: center;
+}
+.card {
+ perspective: 1000px;
+ transform-style: preserve-3d;
+}
+.card-item {
+    background-color: yellow;
+    width: 350px;
+    height: 350px;
+    border: 4px solid black;
+    transition: transform 0.2s;
+    
+}
